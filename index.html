@@ -1,0 +1,104 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Icicle</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <style media="screen">
+    div.questionListContain {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    div.questionListContain ol{
+      margin: 6px 0px;
+    }
+
+    div.svgContain{
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    div.questionList {
+      text-align: center;
+      width: 600px;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+    }
+
+    div.statContain {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+      text-align: middle;
+
+    }
+
+    svg.sunburst-2 {
+      position: relative;
+      z-index: 2;
+    }
+    p.stats {
+      opacity: 0;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 26px;
+    }
+    span.stat-separate {
+      font-size: 16px;
+    }
+
+    div.flexLeg {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+    }
+    .LegBox {
+      width: 20px;
+      height: 12px;
+      margin-right: 4px;
+    }
+
+    div.flexLeg p {
+      margin: 1px 0px;
+      font-size: 10px;
+    }
+
+    svg text {
+      font-size: 10px;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: 300;
+    }
+  </style>
+</head>
+<body>
+  <div class="questionListContain">
+    <div class="questionList">
+      <ol id="id1">Q27. Does your country have a National Accreditation Body?</ol>
+      <ol id="id2">Q29. Is the National Accreditation Body affiliated?</ol>
+      <ol id="id2">Q30. Does your organization know about the activities undertaken by certification bodies?</ol>
+      <ol id="id2">Q31. Does your organization have interactions with certification bodies?</ol>
+      <ol id="id2">Q32. Is it compulsory for certification bodies to register with competent authority</ol>
+      <ol id="id2">Q34. Do certification bodies provide any information to your organization?</ol>
+      <ol id="id2">Q35. Do certification bodies provide any information to follow up on non conformities?</ol>
+    </div>
+  </div>
+  <div class="svgContain">
+    <svg class ="icicle" width = '700px' height = '600px' ></svg>
+  </div>
+  <script src="index.js"></script>
+  <script src="hierarchy.js"></script>
+</body>
+</html>
+<!DOCTYPE html>

@@ -1,0 +1,33 @@
+seq,value
+"Yes-Yes, to IAF-Yes-Yes-Yes-Yes-Yes",2
+"Yes-Yes, to a regional body-Yes-Yes-Yes-Yes-Yes",3
+"Yes-Yes, to a regional body-No-Yes-Yes-Yes-Yes",1
+"Yes-Yes, to a regional body-No-No-Yes-Yes-Yes",1
+No-No-No-No-Yes-Yes-Yes,1
+"Yes-Yes, to IAF-Yes-Yes-No-Yes-Yes",1
+No-No-No-Yes-No-Yes-Yes,1
+"Yes-Yes, to IAF-Yes-Yes-Yes-Yes-No",2
+"Yes-Yes, to a regional body-No-Yes-Yes-Yes-No",1
+"Yes-Yes, to IAF-No-No-No-Yes-No",1
+"Yes-Yes, to IAF-Yes-Yes-Yes-No",2
+"Yes-Yes, to a regional body-Yes-Yes-Yes-No",3
+Yes-No-Yes-Yes-Yes-No,2
+No-No-Yes-Yes-Yes-No,2
+"Yes-Yes, to a regional body-No-Yes-Yes-No",1
+Yes-No-No-Yes-Yes-No,2
+"Yes-Yes, to a regional body-Yes-No-Yes-No",1
+Yes-No-Yes-No-Yes-No,1
+No-No-Yes-No-Yes-No,2
+No-No-No-No-Yes-No,2
+"Yes-Yes, to IAF-Yes-Yes-No-No",3
+"Yes-Yes, to a regional body-Yes-Yes-No-No",1
+No-No-Yes-Yes-No-No,3
+"Yes-Yes, to IAF-No-Yes-No-No",2
+"Yes-Yes, to a regional body-No-Yes-No-No",1
+Yes-No-No-Yes-No-No,1
+"Yes-Yes, to IAF-Yes-No-No-No",2
+Yes-No-Yes-No-No-No,2
+No-No-Yes-No-No-No,1
+"Yes-Yes, to IAF-No-No-No-No",3
+Yes-No-No-No-No-No,2
+No-No-No-No-No-No,3
